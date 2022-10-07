@@ -38,7 +38,7 @@
     "ng-packagr": "^13.0.0",
     "typescript": "~4.5.2"
   },
-  "exports" : {
+  "exports": {
     ".": {
       "sass": "./rating/src/lib_index.scss"
     }

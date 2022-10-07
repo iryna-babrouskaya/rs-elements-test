@@ -21,10 +21,6 @@
         "dist/rating/rating",
         "dist/rating"
       ],
-      "rs-elements": [
-        "dist/rs-elements/rs-elements",
-        "dist/rs-elements"
-      ],
       "short-rating": [
         "dist/short-rating/short-rating",
         "dist/short-rating"
