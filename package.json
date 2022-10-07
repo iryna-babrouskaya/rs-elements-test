@@ -6,8 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "postinstall": "npm --prefix ../projects/rating ci && ng build rating"
+    "test": "ng test"
   },
   "private": false,
   "dependencies": {
