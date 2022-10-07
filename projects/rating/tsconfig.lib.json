@@ -7,10 +7,6 @@
     "declarationMap": true,
     "inlineSources": true,
     "types": [],
-    "paths": {
-      "@angular/*": ["./node_modules/@angular/*"],
-      "rating": ["../rs-elements/dist/rating"]
-    },
   },
   "exclude": [
     "src/test.ts",
