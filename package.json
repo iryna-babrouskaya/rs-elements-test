@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "postinstall": "npm --prefix ../rs-elements ci && ng build rating"
+    "postinstall": "npm --prefix ../projects/rating ci && ng build rating"
   },
   "private": false,
   "dependencies": {
