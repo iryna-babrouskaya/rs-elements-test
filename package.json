@@ -6,7 +6,12 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "rating:build": "ng build rating --configuration production",
+    "rating:pack": "cd dist/rating && npm pack",
+    "short-rating:build": "ng build short-rating --configuration production",
+    "short-rating:pack": "cd dist/short-rating && npm pack",
+    "postinstall": "npm run rating:build && rating:pack"
   },
   "private": false,
   "dependencies": {
