@@ -16,6 +16,20 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "rating": [
+        "dist/rating/rating",
+        "dist/rating"
+      ],
+      "rs-elements": [
+        "dist/rs-elements/rs-elements",
+        "dist/rs-elements"
+      ],
+      "short-rating": [
+        "dist/short-rating/short-rating",
+        "dist/short-rating"
+      ]
+    },
     "target": "es2017",
     "module": "es2020",
     "lib": [
